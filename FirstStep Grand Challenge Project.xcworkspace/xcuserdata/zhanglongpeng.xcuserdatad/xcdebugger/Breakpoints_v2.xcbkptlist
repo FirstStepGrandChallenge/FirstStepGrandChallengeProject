@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstStep Grand Challenge Project/AppDelegate.swift"
+            timestampString = "507417771.483945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstStep_Grand_Challenge_Project.AppDelegate.__deallocating_deinit"
+                  moduleName = "FirstStep Grand Challenge Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglongpeng/Desktop/FirstStep%20Grand%20Challenge%20Project/FirstStep%20Grand%20Challenge%20Project/AppDelegate.swift"
+                  timestampString = "507417772.567948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstStep_Grand_Challenge_Project.AppDelegate.init () -&gt; FirstStep_Grand_Challenge_Project.AppDelegate"
+                  moduleName = "FirstStep Grand Challenge Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglongpeng/Desktop/FirstStep%20Grand%20Challenge%20Project/FirstStep%20Grand%20Challenge%20Project/AppDelegate.swift"
+                  timestampString = "507417772.569917"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstStep_Grand_Challenge_Project.AppDelegate.__allocating_init () -&gt; FirstStep_Grand_Challenge_Project.AppDelegate"
+                  moduleName = "FirstStep Grand Challenge Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglongpeng/Desktop/FirstStep%20Grand%20Challenge%20Project/FirstStep%20Grand%20Challenge%20Project/AppDelegate.swift"
+                  timestampString = "507417772.572818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FirstStep Grand Challenge Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhanglongpeng/Desktop/FirstStep%20Grand%20Challenge%20Project/FirstStep%20Grand%20Challenge%20Project/AppDelegate.swift"
+                  timestampString = "507417772.574338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
