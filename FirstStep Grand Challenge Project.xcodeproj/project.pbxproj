@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					F384F22D1E39546B00DCF760 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2TJ7JGKS6P;
 						ProvisioningStyle = Automatic;
 					};
 					F384F2411E39546B00DCF760 = {
@@ -415,7 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TJ7JGKS6P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "FirstStep Grand Challenge Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FSteam.FirstStep-Grand-Challenge-Project";
@@ -428,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TJ7JGKS6P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "FirstStep Grand Challenge Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FSteam.FirstStep-Grand-Challenge-Project";
@@ -514,6 +513,7 @@
 				F384F2581E39546B00DCF760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F384F2591E39546B00DCF760 /* Build configuration list for PBXNativeTarget "FirstStep Grand Challenge ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +522,7 @@
 				F384F25B1E39546B00DCF760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F384F25C1E39546B00DCF760 /* Build configuration list for PBXNativeTarget "FirstStep Grand Challenge ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				F384F25E1E39546B00DCF760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
