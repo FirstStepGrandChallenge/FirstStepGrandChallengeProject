@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */; };
 		F384F2321E39546B00DCF760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2311E39546B00DCF760 /* AppDelegate.swift */; };
 		F384F2341E39546B00DCF760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2331E39546B00DCF760 /* ViewController.swift */; };
 		F384F2371E39546B00DCF760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F384F2351E39546B00DCF760 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		F384F23C1E39546B00DCF760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F384F23A1E39546B00DCF760 /* LaunchScreen.storyboard */; };
 		F384F2471E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2461E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectTests.swift */; };
 		F384F2521E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2511E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift */; };
+		F3D1BFFB1E3E8A0100E968FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3D1BFFA1E3E8A0100E968FF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.release.xcconfig"; sourceTree = "<group>"; };
+		1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstStep Grand Challenge ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstStep_Grand_Challenge_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F384F22E1E39546B00DCF760 /* FirstStep Grand Challenge Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirstStep Grand Challenge Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F384F2311E39546B00DCF760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F384F2331E39546B00DCF760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,8 @@
 		F384F24D1E39546B00DCF760 /* FirstStep Grand Challenge ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirstStep Grand Challenge ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F384F2511E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStep_Grand_Challenge_ProjectUITests.swift; sourceTree = "<group>"; };
 		F384F2531E39546B00DCF760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D1BFFA1E3E8A0100E968FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3D6A924C3D09BB3191121B1 /* Pods-FirstStep Grand Challenge Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64979AAE772E0300ABEF2D42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3D6A924C3D09BB3191121B1 /* Pods-FirstStep Grand Challenge Project.debug.xcconfig */,
+				18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		964B30E1D9508B8F02B25F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */,
+				C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F384F2251E39546B00DCF760 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				F384F2451E39546B00DCF760 /* FirstStep Grand Challenge ProjectTests */,
 				F384F2501E39546B00DCF760 /* FirstStep Grand Challenge ProjectUITests */,
 				F384F22F1E39546B00DCF760 /* Products */,
+				64979AAE772E0300ABEF2D42 /* Pods */,
+				964B30E1D9508B8F02B25F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +131,7 @@
 				F384F2381E39546B00DCF760 /* Assets.xcassets */,
 				F384F23A1E39546B00DCF760 /* LaunchScreen.storyboard */,
 				F384F23D1E39546B00DCF760 /* Info.plist */,
+				F3D1BFFA1E3E8A0100E968FF /* GoogleService-Info.plist */,
 			);
 			path = "FirstStep Grand Challenge Project";
 			sourceTree = "<group>";
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F384F2561E39546B00DCF760 /* Build configuration list for PBXNativeTarget "FirstStep Grand Challenge Project" */;
 			buildPhases = (
+				73AFE280D7BB28DF8BE7701B /* [CP] Check Pods Manifest.lock */,
 				F384F22A1E39546B00DCF760 /* Sources */,
 				F384F22B1E39546B00DCF760 /* Frameworks */,
 				F384F22C1E39546B00DCF760 /* Resources */,
+				60BBC481DF986274ECB1845A /* [CP] Embed Pods Frameworks */,
+				08E78C63B96A5ECD0EB00D55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F384F23C1E39546B00DCF760 /* LaunchScreen.storyboard in Resources */,
+				F3D1BFFB1E3E8A0100E968FF /* GoogleService-Info.plist in Resources */,
 				F384F2391E39546B00DCF760 /* Assets.xcassets in Resources */,
 				F384F2371E39546B00DCF760 /* Main.storyboard in Resources */,
 			);
@@ -255,6 +288,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E78C63B96A5ECD0EB00D55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60BBC481DF986274ECB1845A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73AFE280D7BB28DF8BE7701B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F384F22A1E39546B00DCF760 /* Sources */ = {
@@ -412,6 +493,7 @@
 		};
 		F384F2571E39546B00DCF760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D6A924C3D09BB3191121B1 /* Pods-FirstStep Grand Challenge Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -425,6 +507,7 @@
 		};
 		F384F2581E39546B00DCF760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
