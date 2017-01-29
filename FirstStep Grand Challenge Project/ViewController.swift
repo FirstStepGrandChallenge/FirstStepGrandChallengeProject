@@ -11,6 +11,20 @@ import UIKit
 class ViewController: UIViewController {
 
     //MARK: Properties
+    @IBOutlet weak var welcomeLable: UILabel!
+    @IBOutlet weak var firstStepLable: UILabel!
+    
+    //MARK: Actions
+    @IBAction func signInButtonPressed(_ sender: Any) {
+        
+        print("Sign in Button Pressed")
+    }
+    
+    
+    @IBAction func signUpButtonPressed(_ sender: Any) {
+        
+        print("Sign up Button Pressed")
+    }
     
     
     override func viewDidLoad() {
@@ -21,19 +35,6 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    
-    
-    @IBAction func signInButtonPressed(_ sender: Any) {
-        
-        print("Sign in Button Pressed")
-    }
-    
-    
-    @IBAction func signUpButtonPressed(_ sender: Any) {
-        
-        print("Sign up Button Pressed")
     }
     
     
