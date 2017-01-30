@@ -1,15 +1,14 @@
 //
-//  SignInViewController.swift
-//  
+//  SignUpViewController.swift
+//  FirstStep Grand Challenge Project
 //
 //  Created by zhanglong Peng on 30/01/2017.
-//
+//  Copyright © 2017 zhanglong Peng. All rights reserved.
 //
 
 import UIKit
-import FirebaseAuth
 
-class SignInViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

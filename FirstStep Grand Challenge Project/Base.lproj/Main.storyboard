@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="-340" y="-335.08245877061472"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="781-sv-jhz">
             <objects>
-                <viewController id="6tO-zD-2QL" sceneMemberID="viewController">
+                <viewController id="6tO-zD-2QL" customClass="SignInViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mNK-vD-XYq"/>
                         <viewControllerLayoutGuide type="bottom" id="qDp-wv-uGk"/>
@@ -226,10 +226,10 @@
             </objects>
             <point key="canvasLocation" x="1726" y="-1536"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="wsO-mD-2hY">
             <objects>
-                <viewController id="GwO-F9-42t" sceneMemberID="viewController">
+                <viewController id="GwO-F9-42t" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="42U-JT-qTC"/>
                         <viewControllerLayoutGuide type="bottom" id="Ayu-mZ-yOZ"/>
