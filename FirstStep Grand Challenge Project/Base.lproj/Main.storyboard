@@ -48,16 +48,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="riX-ZD-J54">
-                                <rect key="frame" x="66" y="101" width="91" height="42"/>
+                                <rect key="frame" x="66" y="101" width="91" height="41"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-EP-AYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST STEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-ei-1La">
-                                        <rect key="frame" x="0.0" y="21" width="91" height="21"/>
+                                        <rect key="frame" x="0.0" y="20.5" width="91" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -125,7 +125,7 @@
                                                 <rect key="frame" x="280" y="0.0" width="63" height="30"/>
                                                 <state key="normal" title="Sign in    "/>
                                                 <connections>
-                                                    <segue destination="XPW-Br-uF4" kind="push" id="VoA-va-fwP"/>
+                                                    <action selector="SignInAction:" destination="6tO-zD-2QL" eventType="touchUpInside" id="JXx-XT-dkA"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -148,6 +148,10 @@
                     <navigationItem key="navigationItem" id="mRJ-wq-GWl">
                         <barButtonItem key="backBarButtonItem" title=" " id="yBh-VT-tVX"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="email" destination="ckZ-cA-6rX" id="1dN-jm-Dn6"/>
+                        <outlet property="password" destination="0zH-VV-SNX" id="rRt-u1-Sss"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iEl-ae-1Qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,7 +160,7 @@
         <!--aksdhjkjashdk-->
         <scene sceneID="6Mc-Gb-p8R">
             <objects>
-                <viewController id="XPW-Br-uF4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="XPW-Br-uF4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7qz-EM-ViK"/>
                         <viewControllerLayoutGuide type="bottom" id="YQW-k0-PXc"/>
@@ -164,6 +168,15 @@
                     <view key="view" contentMode="scaleToFill" id="wCP-Hr-fgx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fuck you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="to7-mM-xoP">
+                                <rect key="frame" x="106" y="323" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="aksdhjkjashdk" id="twM-9Q-ycS">
