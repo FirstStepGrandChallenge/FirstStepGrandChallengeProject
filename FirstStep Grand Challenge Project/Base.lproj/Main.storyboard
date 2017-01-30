@@ -32,6 +32,7 @@
                                         </state>
                                         <connections>
                                             <action selector="signInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2WH-bU-hfw"/>
+                                            <segue destination="6tO-zD-2QL" kind="modal" id="Iju-KX-dDD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pf9-hC-ujh">
@@ -94,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JEY-dM-sP9">
-                                <rect key="frame" x="16" y="120" width="343" height="90"/>
+                                <rect key="frame" x="16" y="120" width="343" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JEx-Hi-KPc">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
@@ -108,31 +109,30 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15z-7t-dTS">
-                                        <rect key="frame" x="0.0" y="60" width="92" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjP-3n-Fg1">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMY-qU-ESC">
-                                                <rect key="frame" x="46" y="0.0" width="46" height="30"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="JEx-Hi-KPc" secondAttribute="trailing" id="IVX-53-Uup"/>
                                     <constraint firstAttribute="trailing" secondItem="Teg-sg-6Tp" secondAttribute="trailing" id="JIT-72-Vmw"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMY-qU-ESC">
+                                <rect key="frame" x="305" y="188" width="54" height="30"/>
+                                <state key="normal" title="button2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjP-3n-Fg1">
+                                <rect key="frame" x="43" y="188" width="52" height="30"/>
+                                <state key="normal" title="button1"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MjP-3n-Fg1" firstAttribute="top" secondItem="Teg-sg-6Tp" secondAttribute="bottom" constant="8" id="27p-6D-myE"/>
                             <constraint firstItem="JEY-dM-sP9" firstAttribute="leading" secondItem="aH9-WD-TQd" secondAttribute="leadingMargin" id="iS9-wn-zfw"/>
+                            <constraint firstItem="AMY-qU-ESC" firstAttribute="top" secondItem="Teg-sg-6Tp" secondAttribute="bottom" constant="8" id="jf7-PH-oFD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JEY-dM-sP9" secondAttribute="trailing" id="qXM-kA-d7e"/>
-                            <constraint firstItem="JEY-dM-sP9" firstAttribute="top" secondItem="mNK-vD-XYq" secondAttribute="bottom" constant="100" id="uaw-GX-pLB"/>
+                            <constraint firstItem="AMY-qU-ESC" firstAttribute="leading" secondItem="Teg-sg-6Tp" secondAttribute="trailing" constant="-54" id="slb-yu-Rpq"/>
+                            <constraint firstItem="Teg-sg-6Tp" firstAttribute="leading" secondItem="MjP-3n-Fg1" secondAttribute="trailing" constant="-79" id="x4x-an-8qA"/>
+                            <constraint firstItem="JEY-dM-sP9" firstAttribute="top" secondItem="mNK-vD-XYq" secondAttribute="bottom" constant="100" id="yig-x7-V7n"/>
                         </constraints>
                     </view>
                 </viewController>
