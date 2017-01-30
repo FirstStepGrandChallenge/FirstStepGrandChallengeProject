@@ -48,16 +48,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="riX-ZD-J54">
-                                <rect key="frame" x="66" y="101" width="91" height="41"/>
+                                <rect key="frame" x="66" y="101" width="91" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-EP-AYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST STEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-ei-1La">
-                                        <rect key="frame" x="0.0" y="20.5" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="21" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -255,6 +255,7 @@
                                 <rect key="frame" x="16" y="607" width="343" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
+                                    <action selector="SignUp:" destination="GwO-F9-42t" eventType="touchUpInside" id="o4k-L2-zU5"/>
                                     <segue destination="tvl-FD-Nsy" kind="push" id="V5h-1V-PMd"/>
                                 </connections>
                             </button>
@@ -310,6 +311,11 @@
                     <navigationItem key="navigationItem" id="hae-6k-okc">
                         <barButtonItem key="backBarButtonItem" title=" " id="7cp-IL-fe8"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="email" destination="cMx-d1-kW0" id="BzI-ge-0nY"/>
+                        <outlet property="password1" destination="HmN-gJ-Cts" id="Q2N-Wg-8mf"/>
+                        <outlet property="password2" destination="zOo-4e-N3O" id="awe-9D-Qip"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="In5-bA-n53" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
