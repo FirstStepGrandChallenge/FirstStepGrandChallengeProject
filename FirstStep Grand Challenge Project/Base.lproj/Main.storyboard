@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="126.38680659670166"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="781-sv-jhz">
             <objects>
-                <viewController id="6tO-zD-2QL" sceneMemberID="viewController">
+                <viewController id="6tO-zD-2QL" customClass="loginViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mNK-vD-XYq"/>
                         <viewControllerLayoutGuide type="bottom" id="qDp-wv-uGk"/>
@@ -143,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="815" y="128"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="wsO-mD-2hY">
             <objects>
-                <viewController id="GwO-F9-42t" sceneMemberID="viewController">
+                <viewController id="GwO-F9-42t" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="42U-JT-qTC"/>
                         <viewControllerLayoutGuide type="bottom" id="Ayu-mZ-yOZ"/>
@@ -178,7 +178,7 @@
                                     <segue destination="0Y0-ZK-dGn" kind="modal" id="atj-bN-VbV"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-88-hbV">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-88-hbV">
                                 <rect key="frame" x="16" y="183" width="343" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Co-Co-R9m">
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="1497" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="kGC-o2-l1H">
             <objects>
-                <viewController id="0Y0-ZK-dGn" sceneMemberID="viewController">
+                <viewController id="0Y0-ZK-dGn" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="leN-zZ-4Y1"/>
                         <viewControllerLayoutGuide type="bottom" id="a3w-XF-Zi8"/>
@@ -272,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="2197.5999999999999" y="125.4872563718141"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="Dmj-pe-lpn">
             <objects>
-                <viewController id="Wwi-Jo-SXH" sceneMemberID="viewController">
+                <viewController id="Wwi-Jo-SXH" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bpW-H5-YTv"/>
                         <viewControllerLayoutGuide type="bottom" id="nnW-ZQ-9gC"/>
@@ -340,10 +340,10 @@
             </objects>
             <point key="canvasLocation" x="2868" y="124.58770614692655"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="jkf-aN-xPc">
             <objects>
-                <viewController id="slA-xB-kzP" sceneMemberID="viewController">
+                <viewController id="slA-xB-kzP" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aiX-xP-p1r"/>
                         <viewControllerLayoutGuide type="bottom" id="8K6-Mz-6V3"/>
@@ -439,10 +439,10 @@
             </objects>
             <point key="canvasLocation" x="3527" y="125"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="Df9-8f-kyo">
             <objects>
-                <viewController id="tvl-FD-Nsy" sceneMemberID="viewController">
+                <viewController id="tvl-FD-Nsy" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dVb-ht-m4g"/>
                         <viewControllerLayoutGuide type="bottom" id="Tgt-v3-wCv"/>

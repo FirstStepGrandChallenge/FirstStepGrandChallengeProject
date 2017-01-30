@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */; };
+		F3677A9F1E3FD7470008B68B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3677A9E1E3FD7470008B68B /* loginViewController.swift */; };
+		F3677AA11E3FD81A0008B68B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3677AA01E3FD81A0008B68B /* SignUpViewController.swift */; };
 		F384F2321E39546B00DCF760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2311E39546B00DCF760 /* AppDelegate.swift */; };
 		F384F2341E39546B00DCF760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2331E39546B00DCF760 /* ViewController.swift */; };
 		F384F2371E39546B00DCF760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F384F2351E39546B00DCF760 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.release.xcconfig"; sourceTree = "<group>"; };
 		1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstStep Grand Challenge ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstStep_Grand_Challenge_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3677A9E1E3FD7470008B68B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		F3677AA01E3FD81A0008B68B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F384F22E1E39546B00DCF760 /* FirstStep Grand Challenge Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirstStep Grand Challenge Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F384F2311E39546B00DCF760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F384F2331E39546B00DCF760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				F384F2311E39546B00DCF760 /* AppDelegate.swift */,
 				F384F2331E39546B00DCF760 /* ViewController.swift */,
 				F384F2351E39546B00DCF760 /* Main.storyboard */,
+				F3677AA01E3FD81A0008B68B /* SignUpViewController.swift */,
+				F3677A9E1E3FD7470008B68B /* loginViewController.swift */,
 				F384F2381E39546B00DCF760 /* Assets.xcassets */,
 				F384F23A1E39546B00DCF760 /* LaunchScreen.storyboard */,
 				F384F23D1E39546B00DCF760 /* Info.plist */,
@@ -344,6 +350,8 @@
 			files = (
 				F384F2341E39546B00DCF760 /* ViewController.swift in Sources */,
 				F384F2321E39546B00DCF760 /* AppDelegate.swift in Sources */,
+				F3677AA11E3FD81A0008B68B /* SignUpViewController.swift in Sources */,
+				F3677A9F1E3FD7470008B68B /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
