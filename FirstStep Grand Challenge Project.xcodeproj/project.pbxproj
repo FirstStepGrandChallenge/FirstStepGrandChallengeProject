@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FFE01FC1E413FC00091AAF5 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE01FB1E413FC00091AAF5 /* ForgetViewController.swift */; };
-		3FFE01FE1E4140030091AAF5 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE01FD1E4140030091AAF5 /* PatientViewController.swift */; };
 		70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */; };
 		F3557BDD1E3FFF07007A7ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */; };
 		F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */; };
@@ -20,6 +18,8 @@
 		F384F23C1E39546B00DCF760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F384F23A1E39546B00DCF760 /* LaunchScreen.storyboard */; };
 		F384F2471E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2461E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectTests.swift */; };
 		F384F2521E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384F2511E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift */; };
+		F3E3854D1E414141007C8718 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3854C1E414141007C8718 /* ForgetViewController.swift */; };
+		F3E3854F1E41416B007C8718 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3854E1E41416B007C8718 /* PatientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 /* Begin PBXFileReference section */
 		18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.release.xcconfig"; sourceTree = "<group>"; };
 		1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstStep Grand Challenge ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FFE01FB1E413FC00091AAF5 /* ForgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
-		3FFE01FD1E4140030091AAF5 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
 		C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstStep_Grand_Challenge_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +60,8 @@
 		F384F2511E39546B00DCF760 /* FirstStep_Grand_Challenge_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStep_Grand_Challenge_ProjectUITests.swift; sourceTree = "<group>"; };
 		F384F2531E39546B00DCF760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D6A924C3D09BB3191121B1 /* Pods-FirstStep Grand Challenge Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E3854C1E414141007C8718 /* ForgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		F3E3854E1E41416B007C8718 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +136,8 @@
 				F384F2311E39546B00DCF760 /* AppDelegate.swift */,
 				F384F2331E39546B00DCF760 /* ViewController.swift */,
 				F384F2351E39546B00DCF760 /* Main.storyboard */,
-				3FFE01FD1E4140030091AAF5 /* PatientViewController.swift */,
-				3FFE01FB1E413FC00091AAF5 /* ForgetViewController.swift */,
+				F3E3854E1E41416B007C8718 /* PatientViewController.swift */,
+				F3E3854C1E414141007C8718 /* ForgetViewController.swift */,
 				F3677AA41E3FF7A40008B68B /* SignInViewController.swift */,
 				F384F2381E39546B00DCF760 /* Assets.xcassets */,
 				F384F23A1E39546B00DCF760 /* LaunchScreen.storyboard */,
@@ -356,10 +356,10 @@
 			files = (
 				F384F2341E39546B00DCF760 /* ViewController.swift in Sources */,
 				F384F2321E39546B00DCF760 /* AppDelegate.swift in Sources */,
-				3FFE01FE1E4140030091AAF5 /* PatientViewController.swift in Sources */,
-				3FFE01FC1E413FC00091AAF5 /* ForgetViewController.swift in Sources */,
+				F3E3854F1E41416B007C8718 /* PatientViewController.swift in Sources */,
 				F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */,
 				F3677AA51E3FF7A40008B68B /* SignInViewController.swift in Sources */,
+				F3E3854D1E414141007C8718 /* ForgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
