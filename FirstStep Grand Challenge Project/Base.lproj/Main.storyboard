@@ -169,8 +169,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fuck you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="to7-mM-xoP">
-                                <rect key="frame" x="106" y="323" width="66" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="loged in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmS-iI-dwA">
+                                <rect key="frame" x="166" y="323" width="61" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -185,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ig9-EJ-eqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1726" y="-720"/>
+            <point key="canvasLocation" x="1725.5999999999999" y="-720.08995502248877"/>
         </scene>
         <!--Reset Password-->
         <scene sceneID="JEa-6K-BRS">
@@ -256,7 +256,6 @@
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="SignUp:" destination="GwO-F9-42t" eventType="touchUpInside" id="o4k-L2-zU5"/>
-                                    <segue destination="tvl-FD-Nsy" kind="push" id="V5h-1V-PMd"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dhm-CN-qu5">
@@ -336,6 +335,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQR-gv-x9K">
                                 <rect key="frame" x="0.0" y="607" width="375" height="30"/>
                                 <state key="normal" title="DONE"/>
+                                <connections>
+                                    <segue destination="XPW-Br-uF4" kind="push" id="eVb-nz-rLB"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Please enable your notification for FirstStep to have better experience.........." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DgH-LK-efV">
                                 <rect key="frame" x="52" y="189" width="240" height="128"/>
