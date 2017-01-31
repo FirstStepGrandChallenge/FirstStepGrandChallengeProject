@@ -24,7 +24,15 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    
     @IBAction func SignInAction(_ sender: UIButton) {
+        self.email.resignFirstResponder()
+        self.password.resignFirstResponder()
 
                 if self.email.text == "" || self.password.text == "" {
         

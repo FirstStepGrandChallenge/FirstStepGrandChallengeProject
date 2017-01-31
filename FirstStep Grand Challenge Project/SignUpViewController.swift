@@ -25,7 +25,19 @@ class SignUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    
     @IBAction func SignUp(_ sender: Any) {
+        self.email.resignFirstResponder()
+        self.password1.resignFirstResponder()
+        self.password2.resignFirstResponder()
+        
         if email.text == "" {
             let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
             
