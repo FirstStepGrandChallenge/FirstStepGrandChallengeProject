@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
@@ -51,6 +52,10 @@ class SignUpViewController: UIViewController {
                 FIRAuth.auth()?.createUser(withEmail: email.text!, password: password1.text!) { (user, error) in
                     
                     if error == nil {
+                        
+                        let databaseRef = FIRDatabase.database().reference()
+                        databaseRef.child("ID").setValue(1)
+                        
                         print("You have successfully signed up")
                         //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
                         

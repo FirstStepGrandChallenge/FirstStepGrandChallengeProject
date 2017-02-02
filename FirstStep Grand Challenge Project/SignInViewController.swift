@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
 
 class SignInViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
@@ -50,6 +51,7 @@ class SignInViewController: UIViewController {
                     FIRAuth.auth()?.signIn(withEmail: self.email.text!, password: self.password.text!) { (user, error) in
         
                         if error == nil {
+                           
         
                             //Print into the console if successfully logged in
                             print("You have successfully logged in")
