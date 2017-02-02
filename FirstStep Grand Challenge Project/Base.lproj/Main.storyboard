@@ -48,16 +48,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="riX-ZD-J54">
-                                <rect key="frame" x="66" y="101" width="91" height="41"/>
+                                <rect key="frame" x="66" y="101" width="91" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-EP-AYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST STEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-ei-1La">
-                                        <rect key="frame" x="0.0" y="20.5" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="21" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -174,8 +174,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="三"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87v-xB-YWz">
-                                <rect key="frame" x="152" y="20" width="72" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lalal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87v-xB-YWz">
+                                <rect key="frame" x="170" y="20" width="36" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -185,21 +185,41 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Today"/>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" translatesAutoresizingMaskIntoConstraints="NO" id="icB-Of-hPi">
-                                <rect key="frame" x="67" y="52" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </scrollView>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="aj4-ny-SLL">
+                                <rect key="frame" x="0.0" y="56" width="375" height="55"/>
+                                <date key="date" timeIntervalSinceReferenceDate="507768679.45590198">
+                                    <!--2017-02-02 22:51:19 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcC-mo-nVB">
+                                <rect key="frame" x="320" y="599" width="34" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=" + "/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="aj4-ny-SLL" firstAttribute="top" secondItem="bsG-mB-lKh" secondAttribute="bottom" id="1QS-WD-R6u"/>
                             <constraint firstItem="DhD-rn-1UX" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="3b9-ue-1hV"/>
+                            <constraint firstAttribute="trailing" secondItem="aj4-ny-SLL" secondAttribute="trailing" id="5Jw-3N-gLs"/>
+                            <constraint firstItem="aj4-ny-SLL" firstAttribute="leading" secondItem="wCP-Hr-fgx" secondAttribute="leading" id="8KW-cQ-9GV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bsG-mB-lKh" secondAttribute="trailing" id="CPq-YF-4h7"/>
                             <constraint firstItem="bsG-mB-lKh" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="EaO-f9-VMO"/>
                             <constraint firstItem="bsG-mB-lKh" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="K6h-VG-RGi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RcC-mo-nVB" secondAttribute="trailing" constant="5" id="XLq-cS-VuR"/>
                             <constraint firstItem="DhD-rn-1UX" firstAttribute="leading" secondItem="wCP-Hr-fgx" secondAttribute="leadingMargin" id="ifE-So-3eH"/>
                             <constraint firstItem="87v-xB-YWz" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="olQ-B4-9Jr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bsG-mB-lKh" secondAttribute="trailing" id="phq-f8-sss"/>
                             <constraint firstItem="87v-xB-YWz" firstAttribute="centerX" secondItem="wCP-Hr-fgx" secondAttribute="centerX" id="qV4-KS-SXd"/>
+                            <constraint firstItem="YQW-k0-PXc" firstAttribute="top" secondItem="RcC-mo-nVB" secondAttribute="bottom" constant="20" id="vpM-Zn-hva"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="aksdhjkjashdk" id="twM-9Q-ycS">
@@ -208,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ig9-EJ-eqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2873" y="72"/>
+            <point key="canvasLocation" x="2872.8000000000002" y="71.514242878560722"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="951-bI-KVD">
