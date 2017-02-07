@@ -24,6 +24,10 @@ class PatientViewController: UIViewController {
         //   go back to the date ....today....
     }
     
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
     
     // MARK: TextField Delegate
     /*
