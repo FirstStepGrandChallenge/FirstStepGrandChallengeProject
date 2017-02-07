@@ -223,6 +223,12 @@
                     <navigationItem key="navigationItem" title="aksdhjkjashdk" id="twM-9Q-ycS">
                         <barButtonItem key="backBarButtonItem" title=" " id="6eJ-iq-hao"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="addButton" destination="RcC-mo-nVB" id="LiZ-it-Fuu"/>
+                        <outlet property="dateText" destination="fcB-at-NX4" id="8Wz-5F-Mp6"/>
+                        <outlet property="popView" destination="DhD-rn-1UX" id="DOy-C3-44v"/>
+                        <outlet property="todayButton" destination="bsG-mB-lKh" id="LOl-yo-hBR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ig9-EJ-eqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

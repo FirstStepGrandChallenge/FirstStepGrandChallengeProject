@@ -9,6 +9,45 @@
 import UIKit
 
 class PatientViewController: UIViewController {
+    
+    
+    @IBOutlet weak var dateText: UITextField!
+    
+    @IBOutlet weak var todayButton: UIButton!
+    
+    @IBOutlet weak var popView: UIButton!
+
+    @IBOutlet weak var addButton: UIButton!
+    
+    
+    @IBAction func todayButtonTypped(sender: UIButton){
+        //   go back to the date ....today....
+    }
+    
+    
+    // MARK: TextField Delegate
+    /*
+    func textFieldDidBeginEditing (textField: UITextField){
+        let datePicker = UIDatePicker()
+        textField.inputView = datePicker
+        datePicker.addTarget(self, action: Selector("datePickerChanged:"), for: .valueChanged)
+    }
+    
+    func datePickerChanged (){
+        let formatter = DateFormatter()
+        formatter.dateStyle = .longStyle
+        
+        dateText.text = formatter.stringFromDate(sender.date);
+        
+    }
+    
+    
+    func textFieldShouldReturn (textField: UITextField){
+        textField.resignFirstResponder()
+        return true
+    }*/
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
