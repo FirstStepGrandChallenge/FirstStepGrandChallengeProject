@@ -206,23 +206,13 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="DATE" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcB-at-NX4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="DATE" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcB-at-NX4">
                                 <rect key="frame" x="16" y="52" width="338" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Uhm-Jf-Fs8">
-                                <rect key="frame" x="16" y="106" width="338" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <textField key="tableFooterView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Press '+' to add any tasks" textAlignment="natural" minimumFontSize="17" id="sxH-ya-CPg">
-                                    <rect key="frame" x="0.0" y="0.0" width="338" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <nil key="textColor"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits"/>
-                                </textField>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -232,7 +222,6 @@
                             <constraint firstItem="bsG-mB-lKh" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="K6h-VG-RGi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RcC-mo-nVB" secondAttribute="trailing" constant="5" id="XLq-cS-VuR"/>
                             <constraint firstItem="DhD-rn-1UX" firstAttribute="leading" secondItem="wCP-Hr-fgx" secondAttribute="leadingMargin" id="ifE-So-3eH"/>
-                            <constraint firstItem="Uhm-Jf-Fs8" firstAttribute="top" secondItem="fcB-at-NX4" secondAttribute="bottom" constant="10" id="mL5-QT-ubI"/>
                             <constraint firstItem="87v-xB-YWz" firstAttribute="top" secondItem="7qz-EM-ViK" secondAttribute="bottom" id="olQ-B4-9Jr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bsG-mB-lKh" secondAttribute="trailing" id="phq-f8-sss"/>
                             <constraint firstItem="87v-xB-YWz" firstAttribute="centerX" secondItem="wCP-Hr-fgx" secondAttribute="centerX" id="qV4-KS-SXd"/>
@@ -246,7 +235,6 @@
                         <outlet property="addButton" destination="RcC-mo-nVB" id="LiZ-it-Fuu"/>
                         <outlet property="dateText" destination="fcB-at-NX4" id="8Wz-5F-Mp6"/>
                         <outlet property="popView" destination="DhD-rn-1UX" id="DOy-C3-44v"/>
-                        <outlet property="tableView" destination="Uhm-Jf-Fs8" id="i8c-jF-gUa"/>
                         <outlet property="todayButton" destination="bsG-mB-lKh" id="LOl-yo-hBR"/>
                     </connections>
                 </viewController>
