@@ -173,6 +173,9 @@
                                 <rect key="frame" x="16" y="20" width="30" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="三"/>
+                                <connections>
+                                    <segue destination="mX4-ao-1MV" kind="show" id="ZX5-45-3Q5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lalal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87v-xB-YWz">
                                 <rect key="frame" x="170" y="20" width="36" height="24"/>
@@ -233,6 +236,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ig9-EJ-eqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2872.8000000000002" y="71.514242878560722"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Ra-LD-sat">
+            <objects>
+                <viewController id="mX4-ao-1MV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6qe-t6-dYG"/>
+                        <viewControllerLayoutGuide type="bottom" id="o6o-7N-zT6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7vr-hw-Xdy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zI-sf-EuY">
+                                <rect key="frame" x="0.0" y="0.0" width="280" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwz-Ng-BiU">
+                                <rect key="frame" x="10" y="10" width="30" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="三"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47O-Xj-xbO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3770.4000000000001" y="71.514242878560722"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="951-bI-KVD">

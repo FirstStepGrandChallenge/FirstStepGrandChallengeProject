@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FFD5EF81E639ED000EF390D /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */; };
 		70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */; };
 		F3557BDD1E3FFF07007A7ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */; };
 		F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		18F3BD49C7F52C95D8468E2A /* Pods-FirstStep Grand Challenge Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep Grand Challenge Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstStep Grand Challenge Project/Pods-FirstStep Grand Challenge Project.release.xcconfig"; sourceTree = "<group>"; };
 		1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstStep Grand Challenge ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstStep_Grand_Challenge_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				F384F2311E39546B00DCF760 /* AppDelegate.swift */,
 				F384F2331E39546B00DCF760 /* ViewController.swift */,
 				F384F2351E39546B00DCF760 /* Main.storyboard */,
+				3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */,
 				F3E3854E1E41416B007C8718 /* PatientViewController.swift */,
 				F3E3854C1E414141007C8718 /* ForgetViewController.swift */,
 				F3677AA41E3FF7A40008B68B /* SignInViewController.swift */,
@@ -356,6 +359,7 @@
 			files = (
 				F384F2341E39546B00DCF760 /* ViewController.swift in Sources */,
 				F384F2321E39546B00DCF760 /* AppDelegate.swift in Sources */,
+				3FFD5EF81E639ED000EF390D /* PopUpViewController.swift in Sources */,
 				F3E3854F1E41416B007C8718 /* PatientViewController.swift in Sources */,
 				F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */,
 				F3677AA51E3FF7A40008B68B /* SignInViewController.swift in Sources */,
