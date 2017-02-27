@@ -276,42 +276,6 @@
             </objects>
             <point key="canvasLocation" x="3812" y="72"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="951-bI-KVD">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jTH-HJ-BQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="sbN-bQ-fFc" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sNa-4V-Ggd"/>
-                        <viewControllerLayoutGuide type="bottom" id="knF-Wn-WUB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="etg-ws-b4R">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Theraspist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6U-P5-jcf">
-                                <rect key="frame" x="135" y="28" width="118" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsA-xe-WTg">
-                                <rect key="frame" x="9" y="27" width="30" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="三"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="M6U-P5-jcf" firstAttribute="centerX" secondItem="etg-ws-b4R" secondAttribute="centerX" id="76K-1V-O8l"/>
-                            <constraint firstItem="M6U-P5-jcf" firstAttribute="centerY" secondItem="etg-ws-b4R" secondAttribute="centerY" id="Gjb-8G-hKM"/>
-                        </constraints>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1820" y="-720.08995502248877"/>
-        </scene>
         <!--First step-->
         <scene sceneID="ssy-RE-0aX">
             <objects>
@@ -339,7 +303,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0yf-QK-RcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3812" y="-720.08995502248877"/>
+            <point key="canvasLocation" x="2873" y="-720"/>
         </scene>
         <!--Reset Password-->
         <scene sceneID="JEa-6K-BRS">
@@ -556,10 +520,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dor-w5-Uk4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2872.8000000000002" y="-720.08995502248877"/>
+            <point key="canvasLocation" x="1820" y="-720"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8kQ-6p-7gd"/>
+        <segue reference="Whg-jo-Yub"/>
     </inferredMetricsTieBreakers>
 </document>
