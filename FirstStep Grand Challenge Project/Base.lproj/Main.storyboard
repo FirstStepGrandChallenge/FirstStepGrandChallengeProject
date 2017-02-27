@@ -48,22 +48,30 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="riX-ZD-J54">
-                                <rect key="frame" x="66" y="101" width="91" height="42"/>
+                                <rect key="frame" x="66" y="101" width="91" height="41"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-EP-AYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST STEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-ei-1La">
-                                        <rect key="frame" x="0.0" y="21" width="91" height="21"/>
+                                        <rect key="frame" x="0.0" y="20.5" width="91" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlY-dF-HP4">
+                                <rect key="frame" x="188" y="307" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="hahahah"/>
+                                <connections>
+                                    <segue destination="U2a-9Y-SyB" kind="show" id="8kQ-6p-7gd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -304,10 +312,10 @@
             </objects>
             <point key="canvasLocation" x="1820" y="-720.08995502248877"/>
         </scene>
-        <!--Table View Controller-->
+        <!--First step-->
         <scene sceneID="ssy-RE-0aX">
             <objects>
-                <tableViewController id="U2a-9Y-SyB" sceneMemberID="viewController">
+                <tableViewController id="U2a-9Y-SyB" customClass="MainTableViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="klB-KC-Ikp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -327,7 +335,7 @@
                             <outlet property="delegate" destination="U2a-9Y-SyB" id="d9T-zO-KJi"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="WE3-T4-Unb"/>
+                    <navigationItem key="navigationItem" title="First step" id="WE3-T4-Unb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0yf-QK-RcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -551,4 +559,7 @@
             <point key="canvasLocation" x="2872.8000000000002" y="-720.08995502248877"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8kQ-6p-7gd"/>
+    </inferredMetricsTieBreakers>
 </document>
