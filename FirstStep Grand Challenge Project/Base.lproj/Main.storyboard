@@ -48,16 +48,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="riX-ZD-J54">
-                                <rect key="frame" x="66" y="101" width="91" height="41"/>
+                                <rect key="frame" x="66" y="101" width="91" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nME-EP-AYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST STEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBT-ei-1La">
-                                        <rect key="frame" x="0.0" y="20.5" width="91" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="21" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -288,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="2872.8000000000002" y="895.50224887556226"/>
         </scene>
-        <!--View Controller-->
+        <!--Pop Up View Controller-->
         <scene sceneID="2Ra-LD-sat">
             <objects>
-                <viewController id="mX4-ao-1MV" sceneMemberID="viewController">
+                <viewController id="mX4-ao-1MV" customClass="PopUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6qe-t6-dYG"/>
                         <viewControllerLayoutGuide type="bottom" id="o6o-7N-zT6"/>
@@ -303,6 +303,17 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zI-sf-EuY">
                                 <rect key="frame" x="0.0" y="0.0" width="280" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjj-FM-UXU">
+                                        <rect key="frame" x="121" y="602" width="39" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closePopUp:" destination="mX4-ao-1MV" eventType="touchUpInside" id="PA5-qr-Kp3"/>
+                                            <segue destination="XPW-Br-uF4" kind="show" id="7l2-8K-JUp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwz-Ng-BiU">
@@ -332,7 +343,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9wU-Fe-Psn" id="S2A-4l-crO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -568,5 +579,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="8kQ-6p-7gd"/>
+        <segue reference="7l2-8K-JUp"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -12,9 +12,8 @@ class PopUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // non-function type error: self.view.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.8)
         self.showAnimate()
+        // non-function type error: self.view.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.8)
         // Do any additional setup after loading the view.
     }
     
@@ -24,10 +23,10 @@ class PopUpViewController: UIViewController {
     }
     
     @IBAction func closePopUp(_ sender: Any) {
-        self.view.removeFromSuperview()
+        //self.view.removeFromSuperview()
         self.removeAnimate()
     }
-    
+
     func showAnimate()
     {
         self.view.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
@@ -50,8 +49,7 @@ class PopUpViewController: UIViewController {
             }
         });
     }
-    
-    /*
+ 
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -59,6 +57,4 @@ class PopUpViewController: UIViewController {
      // Get the new view controller using segue.destinationViewController.
      // Pass the selected object to the new view controller.
      }
-     */
-    
 }
