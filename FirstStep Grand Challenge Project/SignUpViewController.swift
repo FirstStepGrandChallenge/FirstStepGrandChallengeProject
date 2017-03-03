@@ -15,6 +15,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var password1: UITextField!
     @IBOutlet weak var password2: UITextField!
     
+    
+    let databaseRef = FIRDatabase.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -51,10 +54,29 @@ class SignUpViewController: UIViewController {
             if password1.text == password2.text{
                 FIRAuth.auth()?.createUser(withEmail: email.text!, password: password1.text!) { (user, error) in
                     
+                    
+                    
+                    
                     if error == nil {
                         
-                        let databaseRef = FIRDatabase.database().reference()
-                        databaseRef.child("ID").setValue(1)
+                        
+                        guard let uid = user?.uid else{
+                            return
+                        }
+                        
+                        let values = ["email": self.email.text!]
+                        let userRef = self.databaseRef.child("users").child(uid)
+                        userRef.updateChildValues(values, withCompletionBlock: {
+                            (err, databaseRef) in
+                            
+                            if err != nil {
+                                print("save fail")
+                                return
+                            }
+                            print("save successful")
+                        })
+                        userRef.child("iden").setValue(1)
+                        
                         
                         print("You have successfully signed up")
                         //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
