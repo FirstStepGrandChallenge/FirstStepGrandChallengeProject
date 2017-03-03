@@ -95,7 +95,7 @@ class MainTableViewController: UITableViewController, UISearchResultsUpdating {
     /*
      make advanced searching....
      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-     <#code#>
+     code
      }
      */
     
