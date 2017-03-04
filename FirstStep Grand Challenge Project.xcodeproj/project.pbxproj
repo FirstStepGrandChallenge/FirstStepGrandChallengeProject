@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3FFD5EF81E639ED000EF390D /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */; };
 		3FFD5EFC1E63D73A00EF390D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD5EFB1E63D73A00EF390D /* MainTableViewController.swift */; };
+		49F1904B1E6A38DF003216E2 /* RegistrationInforViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F1904A1E6A38DF003216E2 /* RegistrationInforViewController.swift */; };
 		70AC66303BCBBB988E591DB6 /* Pods_FirstStep_Grand_Challenge_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */; };
 		F3557BDD1E3FFF07007A7ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */; };
 		F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */; };
@@ -46,6 +47,7 @@
 		1BBEF9E85DCED03BCBD0AE91 /* libPods-FirstStep Grand Challenge ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstStep Grand Challenge ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		3FFD5EFB1E63D73A00EF390D /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		49F1904A1E6A38DF003216E2 /* RegistrationInforViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationInforViewController.swift; sourceTree = "<group>"; };
 		C58A749E6346FFBDC5421891 /* Pods_FirstStep_Grand_Challenge_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstStep_Grand_Challenge_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3557BDC1E3FFF07007A7ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F3557BE01E4009AE007A7ED8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				F384F2311E39546B00DCF760 /* AppDelegate.swift */,
 				F384F2331E39546B00DCF760 /* ViewController.swift */,
 				F384F2351E39546B00DCF760 /* Main.storyboard */,
+				49F1904A1E6A38DF003216E2 /* RegistrationInforViewController.swift */,
 				3FFD5EF71E639ED000EF390D /* PopUpViewController.swift */,
 				3FFD5EFB1E63D73A00EF390D /* MainTableViewController.swift */,
 				F3E3854E1E41416B007C8718 /* PatientViewController.swift */,
@@ -365,6 +368,7 @@
 				3FFD5EF81E639ED000EF390D /* PopUpViewController.swift in Sources */,
 				F3E3854F1E41416B007C8718 /* PatientViewController.swift in Sources */,
 				3FFD5EFC1E63D73A00EF390D /* MainTableViewController.swift in Sources */,
+				49F1904B1E6A38DF003216E2 /* RegistrationInforViewController.swift in Sources */,
 				F3557BE11E4009AE007A7ED8 /* SignUpViewController.swift in Sources */,
 				F3677AA51E3FF7A40008B68B /* SignInViewController.swift in Sources */,
 				F3E3854D1E414141007C8718 /* ForgetViewController.swift in Sources */,
