@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="3098" y="10"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="q34-mg-u8I">
             <objects>
-                <viewController id="XxA-bq-WCa" sceneMemberID="viewController">
+                <viewController id="XxA-bq-WCa" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QPn-qG-hBF"/>
                         <viewControllerLayoutGuide type="bottom" id="iO6-y5-Fpk"/>
@@ -303,6 +303,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="PatiButt" destination="hn6-xg-AjS" id="4c6-DB-Bk3"/>
+                        <outlet property="TherButt" destination="Q40-SO-RvX" id="5s2-7Q-vf4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RaC-aL-6FJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -698,10 +702,10 @@
             </objects>
             <point key="canvasLocation" x="759" y="73"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="zJ3-or-XWg">
             <objects>
-                <viewController id="nbl-RJ-agj" sceneMemberID="viewController">
+                <viewController id="nbl-RJ-agj" customClass="SignUpViewController" customModule="FirstStep_Grand_Challenge_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kHL-YJ-YKB"/>
                         <viewControllerLayoutGuide type="bottom" id="d5L-Bd-gmu"/>
@@ -787,6 +791,14 @@
                             <constraint firstItem="Dbh-Bg-oOA" firstAttribute="centerX" secondItem="dD0-Gn-nfE" secondAttribute="centerX" id="UIg-hO-BzD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="FirstName" destination="7L4-ix-Phn" id="0G8-hj-9nB"/>
+                        <outlet property="Gender" destination="O8x-BX-ck9" id="IsG-Rx-Vpu"/>
+                        <outlet property="LastName" destination="Z9P-iL-HON" id="Orw-1k-8Ra"/>
+                        <outlet property="SignUp" destination="qTU-Gi-a71" id="tlg-yC-VQh"/>
+                        <outlet property="height" destination="cMf-Rg-FE0" id="FVs-Mg-eCj"/>
+                        <outlet property="weight" destination="gBZ-5b-zf7" id="OPM-n3-q6r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Htw-39-guP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

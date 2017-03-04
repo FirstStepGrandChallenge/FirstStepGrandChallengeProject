@@ -16,6 +16,15 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var password2: UITextField!
     
     
+    @IBOutlet weak var TherButt: UIButton!
+    @IBOutlet weak var PatiButt: UIButton!
+    @IBOutlet weak var LastName: UITextField!
+    @IBOutlet weak var FirstName: UITextField!
+    @IBOutlet weak var Gender: UITextField!
+    @IBOutlet weak var weight: UITextField!
+    @IBOutlet weak var height: UITextField!
+    
+    
     let databaseRef = FIRDatabase.database().reference()
     
     override func viewDidLoad() {
