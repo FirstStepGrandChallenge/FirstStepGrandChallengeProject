@@ -15,14 +15,14 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var password1: UITextField!
     @IBOutlet weak var password2: UITextField!
     
-    
+    /*
     @IBOutlet weak var TherButt: UIButton!
     @IBOutlet weak var PatiButt: UIButton!
     @IBOutlet weak var LastName: UITextField!
     @IBOutlet weak var FirstName: UITextField!
     @IBOutlet weak var Gender: UITextField!
     @IBOutlet weak var weight: UITextField!
-    @IBOutlet weak var height: UITextField!
+    @IBOutlet weak var height: UITextField!*/
     
     
     let databaseRef = FIRDatabase.database().reference()
@@ -44,10 +44,10 @@ class SignUpViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    @IBAction func emailPassNext(_ sender: Any) {
+    //@IBAction func emailPassNext(_ sender: Any) {
         
         
-    }
+    //}
     
     
     @IBAction func SignUp(_ sender: Any) {
