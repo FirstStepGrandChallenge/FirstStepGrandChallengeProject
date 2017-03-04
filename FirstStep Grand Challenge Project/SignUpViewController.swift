@@ -44,6 +44,10 @@ class SignUpViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    @IBAction func emailPassNext(_ sender: Any) {
+        
+        
+    }
     
     
     @IBAction func SignUp(_ sender: Any) {

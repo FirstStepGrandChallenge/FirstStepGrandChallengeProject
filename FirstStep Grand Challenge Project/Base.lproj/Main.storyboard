@@ -637,6 +637,7 @@
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="SignUp:" destination="GwO-F9-42t" eventType="touchUpInside" id="o4k-L2-zU5"/>
+                                    <action selector="emailPassNext:" destination="GwO-F9-42t" eventType="touchUpInside" id="3jc-fb-TKk"/>
                                     <segue destination="XxA-bq-WCa" kind="show" id="Sz0-5G-azw"/>
                                 </connections>
                             </button>
@@ -723,6 +724,7 @@
                                         <state key="normal" title="NEXT"/>
                                         <connections>
                                             <action selector="SignUp:" destination="GwO-F9-42t" eventType="touchUpInside" id="7R0-NZ-zCQ"/>
+                                            <action selector="SignUpN:" destination="nbl-RJ-agj" eventType="touchUpInside" id="kbk-bI-CYO"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZk-e7-9MP">
