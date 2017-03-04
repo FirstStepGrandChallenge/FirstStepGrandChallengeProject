@@ -2,12 +2,11 @@ import UIKit
 
 class RegistrationInforViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
+    
     @IBOutlet weak var textBox: UITextField!
     @IBOutlet weak var dropDown: UIPickerView!
     
-    
     var list = ["Female", "Male", "Other"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
